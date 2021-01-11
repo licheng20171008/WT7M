@@ -21,8 +21,13 @@
               <configuration>
                   <port>8888</port>
                   <path>/</path> 
+                  <uriEncoding>UTF-8</uriEncoding>
               </configuration>
           </plugin>
       </plugins> 
   </build>
+  <properties>
+    <!--编译编码，缺失会有编译警告-->
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+</properties>
 </project>
