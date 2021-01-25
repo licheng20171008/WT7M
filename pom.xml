@@ -22,14 +22,6 @@
 		</developer>
 	</developers>
 	<organization></organization>
-	<dependencies>
-		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>javax.servlet-api</artifactId>
-			<version>3.0.1</version>
-			<scope>provided</scope>
-		</dependency>
-	</dependencies>
 	<build>
 		<pluginManagement>
 			<plugins>
@@ -58,6 +50,14 @@
 			</plugin>
 		</plugins>
 	</build>
+	<dependencies>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 	<properties>
 		<!--编译编码，缺失会有编译警告 -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
