@@ -23,6 +23,7 @@
 	</developers>
 	<organization></organization>
 	<build>
+	    <finalName>wt7m</finalName>
 		<pluginManagement>
 			<plugins>
 				<plugin>
